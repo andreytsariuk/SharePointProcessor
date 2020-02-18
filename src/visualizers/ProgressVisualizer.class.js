@@ -88,7 +88,7 @@ class ProgressVisualizer {
     result.forEach(res => {
       console.log(
         (res.error ? '\x1b[31m' : '\x1b[32m') +
-        '| ' + res.id + ' |' +
+        '|  ' + res.id + ' |' +
         ProgressVisualizer.tabFields(res, 'name', 39) + '| ' +
         ' ' + (res.error ? 'failed ' : 'success') + ' |' +
         ProgressVisualizer.tabFields(res, 'size', 14, 'b') + '|' +
