@@ -69,9 +69,9 @@ The result will be present as a table with separated and aggregated data.
 * AWS_SECRET_ACCESS_KEY - Specifies the secret key associated with the access key. This is essentially the "password" for the access key.
 * AWS_S3_REGION - The region Of AWS **S3**
 ##### Custom Configurations
-* BATCH_SIZE - The region Of AWS **SQS**
-* LOG_PROGRESS - the name of queue to send campaigns to start report generation
-* DOWNLOAD_FILES - **default** is false. Uses to store all processed files in [downloads](./downloads) directory
+* BATCH_SIZE - **default is 3**. The number of requests that can be run in the same time. 
+* LOG_PROGRESS - **default is true**. Uses to control the progress showing
+* DOWNLOAD_FILES - **default is false**. Uses to store all processed files in [downloads](./downloads) directory
 
 
 #### [Config file](./config/default.json) :
@@ -94,5 +94,9 @@ To start server for **Dev** environment:
 npm start
 ```
 
+## TODO
 
+* Add Unit Test for abstract classes
+* Complete integration with S3 service
+* Modify and **optimize** the process of progress visualization
 

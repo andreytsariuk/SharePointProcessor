@@ -8,7 +8,8 @@ node_modules
 # Log files
 npm-debug.log*
 
-
+# Runtime data
+downloads/*
 
 
 # Editor directories and files
