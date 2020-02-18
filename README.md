@@ -62,8 +62,8 @@ The result will be present as a table with separated and aggregated data.
 
 ##### Share Point integration
 * SHAREPOINT_RESOURCE - "postgres://[user_name]:[password]@localhost/[db_name]"
-* SHAREPOINT_CLIENT_ID - the current healthcheck url for zapp platform (different based on environment)
-* SHAREPOINT_CLIENT_SECRET - the time in seconds that are the minimum timeout between process running iterations
+* SHAREPOINT_CLIENT_ID - sharepoint client ID of add-in
+* SHAREPOINT_CLIENT_SECRET -  sharepoint client secret of add-in
 ##### S3 integration (in progress)
 * AWS_S3_ACCESS_KEY_ID - Specifies an AWS access key associated with an IAM user or role.
 * AWS_SECRET_ACCESS_KEY - Specifies the secret key associated with the access key. This is essentially the "password" for the access key.

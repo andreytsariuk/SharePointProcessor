@@ -12,7 +12,6 @@
 - [ ] Documentation
 
 
-* **What is the task?** (Tasks: links to **[Jira](https://zapp360-jira.sigmaukraine.com/secure/RapidBoard.jspa)** tasks)
 
 
 
