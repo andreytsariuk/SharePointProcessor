@@ -1,0 +1,17 @@
+{
+  "SHAREPOINT": {
+    "RESOURCE": "",
+    "CLIENT_ID": "",
+    "CLIENT_SECRET": ""
+  },
+  "AWS_S3": {
+    "ACCESS_KEY_ID": "",
+    "SECRET_ACCESS_KEY": "",
+    "REGION": ""
+  },
+  "OPTIONS": {
+    "BATCH_SIZE": 3,
+    "LOG_PROGRESS": true,
+    "DOWNLOAD_FILES": false
+  }
+}

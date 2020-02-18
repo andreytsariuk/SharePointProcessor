@@ -1,0 +1,30 @@
+{
+  "name": "sharepointprocessor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/main.js",
+    "lint": "./node_modules/eslint/bin/eslint.js .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreytsariuk/SharePointProcessor.git"
+  },
+  "author": "tsariukandreyjs@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreytsariuk/SharePointProcessor/issues"
+  },
+  "homepage": "https://github.com/andreytsariuk/SharePointProcessor#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "config": "^3.2.5",
+    "node-sp-auth": "^2.5.7",
+    "uniqid": "^5.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1"
+  }
+}
