@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/andreytsariuk/SharePointProcessor#readme",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "config": "^3.2.5",
     "node-sp-auth": "^2.5.7",
     "uniqid": "^5.2.0"
